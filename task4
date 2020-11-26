@@ -34,10 +34,8 @@ print('Updated animals list: ', animals)
 
 Store the largest number from the list to a variable
 list1 = [10, 20, 4, 45, 99]
-list1.sort()
-print("Largest element is:", list1[-1])
+print("Largest element is:", max(list1))
 
 Store the Smallest number from the list to a variable
 list1 = [10, 20, 4, 45, 99]
-list1.sort()
-print("smallest element is:", list1[-1])
+print("smallest element is:", min(list1))
